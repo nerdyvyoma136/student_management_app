@@ -1,0 +1,20 @@
+1,Alice,20,Math
+2,Bob,22,Physics
+3,Charlie,21,Chemistry
+4,Daisy,23,Biology
+5,Ethan,20,Computer Science
+6,Fiona,24,Math
+7,George,19,Physics
+8,Hannah,22,Chemistry
+9,Ian,21,Biology
+10,Jane,20,Computer Science
+11,Kevin,23,Math
+12,Linda,22,Physics
+13,Mike,21,Chemistry
+14,Nina,20,Biology
+15,Oscar,19,Computer Science
+16,Paula,22,Math
+17,Quincy,23,Physics
+18,Rachel,21,Chemistry
+19,Steve,20,Biology
+20,Tina,22,Computer Science
