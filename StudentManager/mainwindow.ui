@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Student Management</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayoutCentral">
+    <item>
+     <widget class="QGroupBox" name="groupBoxAddStudent">
+      <property name="title">
+       <string>Add Student</string>
+      </property>
+      <layout class="QFormLayout" name="formLayoutAddStudent">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelName">
+         <property name="text">
+          <string>Name:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="nameLineEdit"/>
+       </item>
+
+       <item row="1" column="0">
+        <widget class="QLabel" name="labelRoll">
+         <property name="text">
+          <string>Roll Number:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="rollLineEdit"/>
+       </item>
+
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelAnsiC">
+         <property name="text">
+          <string>ANSI C:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="ansiCLineEdit"/>
+       </item>
+
+       <item row="3" column="0">
+        <widget class="QLabel" name="labelDS">
+         <property name="text">
+          <string>Data Structures:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="dsLineEdit"/>
+       </item>
+
+       <item row="4" column="0">
+        <widget class="QLabel" name="labelDBMS">
+         <property name="text">
+          <string>DBMS:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="dbmsLineEdit"/>
+       </item>
+
+       <item row="5" column="0">
+        <widget class="QLabel" name="labelOS">
+         <property name="text">
+          <string>Operating Systems:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="osLineEdit"/>
+       </item>
+
+       <item row="6" column="0">
+        <widget class="QLabel" name="labelOOPCpp">
+         <property name="text">
+          <string>OOP with C++:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="oopCppLineEdit"/>
+       </item>
+
+       <item row="7" column="0">
+        <widget class="QLabel" name="labelCN">
+         <property name="text">
+          <string>Computer Networks:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="cnLineEdit"/>
+       </item>
+
+       <item row="8" column="0">
+        <widget class="QLabel" name="labelCO">
+         <property name="text">
+          <string>Computer Organization:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLineEdit" name="coLineEdit"/>
+       </item>
+
+       <item row="9" column="0">
+        <widget class="QLabel" name="labelADA">
+         <property name="text">
+          <string>Algorithms:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QLineEdit" name="adaLineEdit"/>
+       </item>
+
+       <item row="10" column="0">
+        <widget class="QLabel" name="labelSE">
+         <property name="text">
+          <string>Software Engineering:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QLineEdit" name="seLineEdit"/>
+       </item>
+
+       <item row="11" column="0">
+        <widget class="QLabel" name="labelNetSec">
+         <property name="text">
+          <string>Network Security:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QLineEdit" name="netSecLineEdit"/>
+       </item>
+
+       <item row="12" column="1">
+        <widget class="QPushButton" name="addButton">
+         <property name="text">
+          <string>Add Student</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayoutButtons">
+      <item>
+       <widget class="QLineEdit" name="searchLineEdit">
+        <property name="placeholderText">
+         <string>Enter roll number</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="searchButton">
+        <property name="text">
+         <string>Search</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sortButton">
+        <property name="text">
+         <string>Sort by Total Marks</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="deleteButton">
+        <property name="text">
+         <string>Delete</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="exitButton">
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+
+    <item>
+     <widget class="QTableWidget" name="studentTableWidget">
+      <property name="columnCount">
+       <number>14</number>
+      </property>
+      <property name="rowCount">
+       <number>0</number>
+      </property>
+      <property name="horizontalHeaderLabels">
+       <stringlist>
+        <string>Name</string>
+        <string>Roll</string>
+        <string>ANSI C</string>
+        <string>Data Structures</string>
+        <string>DBMS</string>
+        <string>Operating Systems</string>
+        <string>OOP C++</string>
+        <string>Comp Networks</string>
+        <string>Comp Org</string>
+        <string>Algorithms</string>
+        <string>Software Eng</string>
+        <string>Net Security</string>
+        <string>Total Marks</string>
+        <string>Grade</string>
+       </stringlist>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <connections/>
+</ui>
