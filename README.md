@@ -89,6 +89,6 @@ Build and run using Qt Creator or via:
 ```bash
 qmake && make
 ./student_management_app
-
+```
 
 **Note**: Ignore two files **student_management.cpp** and **students.txt** as that was initial simple console based version of app which can normally be executed using any compiler followed by ./<object file generated>
