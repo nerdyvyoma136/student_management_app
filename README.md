@@ -8,11 +8,11 @@ A GUI-based application to manage college students' academic records with compre
 
 | Operation        | Screenshot Snippet |
 |------------------|--------------------|
-| Add Student      | ![Add Student](screenshots/Student_Add.png) |
-| Search Student   | ![Search Student](screenshots/Student_search.png) |
-| Sort Students    | ![Sort](screenshots/Student_sort.png) |
-| Delete Student   | ![Delete](screenshots/Student_Delete.png) |
-| Student Report   | ![Table View](screenshots/Student_Table.png) |
+| Add Student      | ![Add Student](StudentManager/screenshots/Student_Add.png) |
+| Search Student   | ![Search Student](StudentManager/screenshots/Student_search.png) |
+| Sort Students    | ![Sort](StudentManager/screenshots/Student_sort.png) |
+| Delete Student   | ![Delete](StudentManager/screenshots/Student_Delete.png) |
+| Student Report   | ![Table View](StudentManager/screenshots/Student_Table.png) |
 
 > 📸 All screenshots are available in the `/screenshots` folder.
 
