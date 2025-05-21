@@ -81,7 +81,7 @@ Final report includes **Total Marks** and an overall **Grade (A/B/C)** based on 
 
 1. **Clone or Download** the repository:
    ```bash
-   git clone https://github.com/nerdyvyoma136/student-management-app.git
+   git clone https://github.com/nerdyvyoma136/student_management_app.git
 
 ## 🚀 How to Run
 
